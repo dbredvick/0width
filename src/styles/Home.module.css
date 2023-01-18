@@ -166,3 +166,21 @@
     transform: rotate(0deg);
   }
 }
+
+.card {
+  min-height: 164px;
+  width: 100%;
+  position: relative;
+}
+
+.details {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.details,
+.details > div {
+  width: 100%;
+}
