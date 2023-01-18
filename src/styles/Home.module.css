@@ -29,6 +29,7 @@
   color: white;
   cursor: pointer;
   position: relative;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .overlay {
@@ -133,7 +134,8 @@
     rgb(0 0 0 / 12%) 0px 10.7712px 10.7712px -2.67857px,
     rgb(0 0 0 / 10%) 0px 19.7435px 19.7435px -3.21429px,
     rgb(0 0 0 / 5%) 0px 39px 39px -3.75px, rgb(17 58 251 / 77%) 0px 0px 80px 0px;
-  transition: box-shadow 0.2s ease, color 0.2s ease;
+  transition: box-shadow 0.1s ease, color 0.2s ease, transform 0.1s ease;
+  transform: translate(0px, 0px) scale(0.95);
 }
 
 .keyInner::before,
