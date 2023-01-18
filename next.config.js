@@ -4,12 +4,12 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: '/',
-        destination: 'https://codepen.io/chriscoyier/pen/AwVNjg',
+        source: "/",
+        destination: "https://codepen.io/chriscoyier/pen/AwVNjg",
         permanent: false,
       },
-    ]
+    ];
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
