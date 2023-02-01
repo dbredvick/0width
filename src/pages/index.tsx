@@ -39,7 +39,7 @@ export default function Home() {
             <Card>
               <Image
                 src="/example.png"
-                alt="Start a tweet with a 0 width character instead of a . so the tweet doesn't get categorized as a reply."
+                alt="Start a tweet with a 0 width character instead of a . so the tweet doesn't get categorized as a reply!"
                 // width={565}
                 // height={165.5}
                 priority
